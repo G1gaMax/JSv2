@@ -1,0 +1,102 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(15, 14, 15);
+    margin: 40px 150px 10px 150px;
+    }
+
+.menu-container-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(15, 14, 15);
+    margin: 10px ;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgb(15, 14, 15);
+    min-height: 400px;
+
+}
+
+.btn {
+    width: 200px;
+    margin: 10px;
+    height: 65%;
+    align-self: center;
+}
+
+.cardBtn {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.cardBtn:hover {
+    background-color: red;
+}
+
+.card-text {
+    margin: 10px;
+    padding: 6px;
+
+}
+
+.filterInput {
+    color: black;
+    width: 150px;
+    height: 60%;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.card {
+    margin: 22px;
+    width: 200px;
+    height: 250px;
+    
+}
+
+.buttonsDivClass {
+    display: flex;
+    flex-direction: row;
+}
